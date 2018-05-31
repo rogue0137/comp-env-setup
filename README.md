@@ -1,5 +1,7 @@
 # git
 
+Copy kflores.gitconfig to /Users/YOURUSER/.gitconfig 
+
 # iTerm2
 brew cask install iterm2
 
@@ -8,6 +10,7 @@ brew cask install iterm2
 
 ## Syntax Highlighting
 ```brew install zsh-syntax-highlighting```
+
 After installing, add the following to your `.zshrc` file. 
 ```source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh```
 
