@@ -1,48 +1,37 @@
-# git
+# Things to do for new comp
 
-Copy `kflores.gitconfig` to `/Users/YOURUSER/.gitconfig`
+- If prompted to install X-code, accept
 
-# iTerm2
-brew cask install iterm2
+## Install homebrew
 
-## Oh My Zsh
-```sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```
+In terminal:
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
 
-## Syntax Highlighting
+## Install iterm2
+
+[iterm](https://www.iterm2.com/downloads.html)
+
+## Set up github
+
+1. [Generate new ssh key and add to github](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+2. Clone this repo
+3. Copy `kflores.gitconfig` to `/Users/${YOURUSER}/.gitconfig`
+
+
+##  Oh My Zsh
+
+1. Install OhMyZsh: ```sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```
+2. Add Syntax Highlighting
 ```brew install zsh-syntax-highlighting```
-
-After installing, add the following to your `.zshrc` file.
-```source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh```
-
-## Connect to JIRA
-1. Add `jira` to the `.zshrc` file.
-```
-plugins=(
-  git,
-  jira,
-)
-```
+3. Add JIRA to plugins ```plugins=(jira)```
 2. Open `~/.jira-url`
 3. Add your JIRA domain, ex. `https://jira.domain.net/`
 
 ## Download Sublime Text
 
-Always download the most recent version. Go [here](https://www.sublimetext.com/)
+1. Always download the most recent version. Go [here](https://www.sublimetext.com/)
+2. Add sublime shortcut `sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime`
 
-## Add sublime ZSH shortcut
-
-The shortcut to open is `st`
-For more information go [here](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/sublime)
-
-1. Add `sublime` to the `.zshrc` file.
-
-```
-plugins=(
-  git,
-  jira,
-  sublime
-)
-```
 
 ## Soup up Sublime Text Editor
 
@@ -57,8 +46,7 @@ plugins=(
 - GitGutter
 - Markdown Preview
 
-## Python 2 and 3
-Brew has been fun lately (this may change); to use both, do the following
-```brew upgrade python``` --> this is now python3
+## Check yo' python
 
-```brew install python2``` --> get python2 on your computer again
+Use one of these two: `brew install python` or `brew upgrade python`
+Then : `brew install iPython`
