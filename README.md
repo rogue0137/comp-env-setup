@@ -1,5 +1,7 @@
 # Things to do for new comp
 
+## X-code
+
 - If prompted to install X-code, accept
 
 ## Install homebrew
@@ -26,12 +28,16 @@ In terminal:
 3. Add JIRA to plugins ```plugins=(jira)```
 2. Open `~/.jira-url`
 3. Add your JIRA domain, ex. `https://jira.domain.net/`
+4. Use attached `.zshrc` to continue updating
 
 ## Download Sublime Text
 
 1. Always download the most recent version. Go [here](https://www.sublimetext.com/)
 2. Add sublime shortcut `sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime`
 
+## Download VS Code
+
+# Archival 
 
 ## Soup up Sublime Text Editor
 

@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        { // Debugger
+            "name": "Attach to Process (Docker)",
+            "type": "node",
+            "request": "attach",
+            "port": 9230, // Port of the container
+            "localRoot": "${workspaceFolder}",
+            "remoteRoot": "/app/", // Path of the container
+            "sourceMaps": true,
+        }
+    ]
+}
