@@ -1,3 +1,4 @@
+# all docker-compose should probably be updated to docker compose now
 # basic docker command ot build an app
 docker-compose app
 
