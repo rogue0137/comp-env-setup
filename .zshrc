@@ -2,7 +2,8 @@
 ZSH_DISABLE_COMPFIX=true
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/krys-flores/.oh-my-zsh"
+# Update path
+export ZSH="//Users/krys/.oh-my-zsh"
 
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="robbyrussell"
@@ -30,9 +31,11 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-export PATH="/usr/local/opt/postgresql@9.6/bin:$PATH"
-export PATH="/usr/local/opt/redis@3.2/bin:$PATH"
-eval "$(nodenv init -)"
+
+# Path examples
+# export PATH="/usr/local/opt/postgresql@9.6/bin:$PATH"
+# export PATH="/usr/local/opt/redis@3.2/bin:$PATH"
+# eval "$(nodenv init -)"
 
 ## DB shortcuts
 # alias psql_name ="psql -d database_name -h host_name -U user_name"
@@ -59,7 +62,7 @@ alias gca="git commit --amend"
 alias gdob='gd origin/`branch`'
 alias pretty-log="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-eval "$(direnv hook zsh)"
+# export NVM_DIR="$HOME/.nvm"
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# eval "$(direnv hook zsh)"
