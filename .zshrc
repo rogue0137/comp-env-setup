@@ -1,9 +1,9 @@
 # Remove insecurities warning message
-ZSH_DISABLE_COMPFIX=true
+# ZSH_DISABLE_COMPFIX=true
 
 # Path to your oh-my-zsh installation.
 # Update path
-export ZSH="//Users/krys/.oh-my-zsh"
+# export ZSH="//Users/krys/.oh-my-zsh"
 
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="robbyrussell"
