@@ -1,15 +1,17 @@
 Use [Phind.com](www.phind.com) with the following prompt:
 
 
-Write me the entire app setup for a TypeScript app with one route. Include anything it would take to get an app up and running. 
+Write me the entire app setup for a TypeScript app with one route. Include anything it would take to get an app up and running. Put port and app.listen logic in server.ts instead of app.ts.
 
 Provide the command to start the app.  Use nodemon and to automatically recompile on changes.
+
 Add Jest as the testing framework. Create the test for app.ts that lives in a test folder. This test should use superset. Create a test for base.ts.
 
 Include a gitignore file and what should be included.
 
 My directory structure for the app should look like.
 |── src
+|   ├── server.ts
 │   ├── app.ts
 │   └── routes
 │       └── base.ts
@@ -25,6 +27,8 @@ My directory structure for the app should look like.
 |   └── models
 │   └── types
 │   └── utils
+
+Include a .vscode/launch.json to run a debugger with the app and with the tests.
 
 My package.json scripts should look similar to:
 
