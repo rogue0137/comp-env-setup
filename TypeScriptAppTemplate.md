@@ -10,6 +10,7 @@ Add Jest as the testing framework. Create the test for app.ts that lives in a te
 Include a gitignore file and what should be included.
 
 My directory structure for the app should look like.
+```
 |── src
 |   ├── server.ts
 │   ├── app.ts
@@ -27,6 +28,7 @@ My directory structure for the app should look like.
 |   └── models
 │   └── types
 │   └── utils
+```
 
 Include a .vscode/launch.json to run a debugger with the app and with the tests.
 
