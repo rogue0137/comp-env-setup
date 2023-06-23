@@ -32,7 +32,7 @@ Include a .vscode/launch.json to run a debugger with the app and with the tests.
 
 My package.json scripts should look similar to:
 
-```JSON
+```
 {
   "scripts": {    
     "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/app.ts",    
