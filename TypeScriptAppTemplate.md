@@ -32,13 +32,15 @@ Include a .vscode/launch.json to run a debugger with the app and with the tests.
 
 My package.json scripts should look similar to:
 
-```Json
+```JSON
+{
   "scripts": {    
     "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/app.ts",    
     "lint-fix": "eslint --fix --ext .ts .",    
     "start": "tsc && node dist/app.js",    
     "test": "jest"  
     },
+}
 ```
 My .eslintrc.cjs should look like:
 
